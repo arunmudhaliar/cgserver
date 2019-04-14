@@ -1,0 +1,24 @@
+{
+  "name": "carromgoldserver",
+  "version": "0.0.1",
+  "description": "cg server",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arunmudhaliar/cgserver"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "carromgold"
+  ],
+  "license": "MIT"
+}

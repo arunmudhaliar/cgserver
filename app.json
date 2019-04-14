@@ -1,0 +1,8 @@
+{
+  "name": "Carromgold: Node.js",
+  "description": "Cg",
+  "repository": "https://github.com/arunmudhaliar/cgserver",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "Carromgold", "heroku"],
+  "image": "heroku/nodejs"
+}
