@@ -174,8 +174,10 @@ var server = http.createServer(function(request, response) {
   // process HTTP request. Since we're writing just WebSockets
   // server we don't have to implement anything.
 });
-server.listen(process.env.PORT || 3000, function() { 
-  console.log("cg server started...");
+
+var server_port = process.env.PORT || 3000
+server.listen(server_port, function() { 
+  console.log("cg server started in port "+server_port);
 });
 
 // create the server
