@@ -182,7 +182,8 @@ server.listen(server_port, function() {
 
 // create the server
 wsServer = new WebSocketServer({
-  httpServer: server
+  httpServer: server,
+  handshakeTimeout: 7000
 });
 
 // WebSocket server
