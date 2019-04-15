@@ -9,9 +9,10 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "websocket": "^1.0.28"
+  },
+  "devDependencies": {
   },
   "repository": {
     "type": "git",
